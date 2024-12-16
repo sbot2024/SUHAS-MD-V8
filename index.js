@@ -15,12 +15,12 @@
 
 
 // * Project name - SUHAS- MD 
-// * Author - Suhas Pathsindu
-// * Team - Suhas Bro 
+// * Author - Sandaru md
+// * Team - devil Bro 
 // * Version - V2
 
 // World best and powerfull whatsapp user bot in Sri lanka
-// 🧬©ꜱᴜʜᴀꜱ-ᴍᴅ ʙʏ ꜱᴜᴀʜꜱ ᴘᴀᴛʜꜱɪɴᴅᴜッ
+// 🧬©ꜱᴜʜᴀꜱ-ᴍᴅ ʙʏ ꜱandaru Gimsaraッ
 
 
 
@@ -47,7 +47,7 @@ const { File } = require('megajs')
 const prefix = '.'
 
 
-const ownerNumber = ['🧚‍♂️💕𝗔𝗱𝗱 𝗬𝗼𝘂𝗿 𝗕𝗼𝘁 𝗡𝘂𝗺𝗯𝗲𝗿 𝗛𝗲𝗿𝗲 𝗪𝗶𝘁𝗵 𝗖𝗼𝘂𝗻𝘁𝗿𝘆 𝗖𝗼𝗱𝗲💕🧚‍♂️']
+const ownerNumber = ['94703890339']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -97,10 +97,9 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful 🧬✅')
 console.log('SUHAS-MD Bot Connected to WhatsApp Succesful 🧬✅')
 
-let up = `SUHAS-MD Connected Successful 🤖✅\n\nPREFIX: ${prefix}\n\n Main CMD: .menu/.allmenu\n\n Bot Main Owner : Suhas Pathsindu💞\n\n *🧬Don't Forget To Subscibe My YouTube Channel*\n www.youtube.com/@suhasbro\n\n *🧬Follow Your WhatsApp Channel*\n https://www.whatsapp.com/channel/0029VagKNUe96H4IdMbr9f2o\n\nThanks For Usings 𝚂𝚄𝙷𝙰𝚂-𝙼𝙳-𝚅8❤️\n\n\n> *© 𝙿𝚘𝚠𝚎𝚛𝚍 𝙱𝚢 🧚‍♂️⃝𝚂𝚄𝙷𝙰𝚂-𝙼𝙳 𝚅8 💕⃟* `;
+let up = `SUHAS-MD Connected Successful 🤖✅\n\nPREFIX: ${prefix}\n\n Main CMD: .menu/.allmenu\n\n Bot Main Owner : Sandaru Gimsara💞\n\n *🧬Don't Forget To Subscibe My YouTube Channel*\n www.youtube.com/@suhasbro\n\n *🧬Follow Your WhatsApp Channel*\n https://www.whatsapp.com/channel/0029VagKNUe96H4IdMbr9f2o\n\nThanks For Usings 𝚂𝚄𝙷𝙰𝚂-𝙼𝙳-𝚅8❤️\n\n\n> *© 𝙿𝚘𝚠𝚎𝚛𝚍 𝙱𝚢 🧚‍♂️⃝𝚂𝚄𝙷𝙰𝚂-𝙼𝙳 𝚅8 💕⃟* `;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/F8DfWKM/cjfff-1.jpg` }, caption: up })
-
 }
 })
 conn.ev.on('creds.update', saveCreds)  
